@@ -1,4 +1,4 @@
-FROM java:7
+FROM anapsix/alpine-java:7_jdk
 COPY src /home/root/javahelloworld/src
 #RUN javac HelloWorld.java
 WORKDIR /home/root/javahelloworld
